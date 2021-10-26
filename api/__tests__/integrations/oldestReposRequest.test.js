@@ -17,12 +17,8 @@ describe('GET /takeblip/repos', () => {
     afterEach(() => jest.clearAllMocks())
 
     it('Get the repositories successfully', () => {
-      try {
         const response = await request(app).get(API_ROUTE);
         expect(response).toStrictEqual(repositories);
-      } catch (error) {
-        console.log(error);
-      }
     });
   });
 });
