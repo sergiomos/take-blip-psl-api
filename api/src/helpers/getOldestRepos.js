@@ -14,9 +14,9 @@ const serialize = (repo) => {
 }
 
 const getOldestRepos = async() => {
-  const response = await axios.get('https://api.github.com/orgs/takenet/repos')
-  
-  return response.map(serialize).slice(0, 5);
+  const { data } = await axios.get('https://api.github.com/orgs/takenet/repos');
+
+  return data.slice(0, 5).map(serialize);
 };
 
 module.exports = getOldestRepos;

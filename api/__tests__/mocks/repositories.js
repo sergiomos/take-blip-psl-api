@@ -1,4 +1,5 @@
-module.exports = [
+module.exports = {
+  data: [
   {
     "id": 13860708,
     "name": "library.data",
@@ -84,4 +85,4 @@ module.exports = [
     "url": "https://api.github.com/repos/takenet/Takenet.Radar",
     "created_at": "2014-01-13T11:38:38Z",
   }
-];
+]};
