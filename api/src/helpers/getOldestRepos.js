@@ -6,7 +6,7 @@ const serialize = (repo) => {
   return {
     id, 
     name, 
-    owner, 
+    owner,
     createdAt: created_at, 
     description, 
     url,
@@ -16,7 +16,7 @@ const serialize = (repo) => {
 const getOldestRepos = async() => {
   const response = await axios.get('https://api.github.com/orgs/takenet/repos')
   
-  return response.map(serialize);
+  return response.map(serialize).slice(0, 5);
 };
 
 module.exports = getOldestRepos;
