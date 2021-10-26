@@ -1,11 +1,11 @@
 {
   "name": "api",
   "version": "1.0.0",
-  "main": "src/server.js",
+  "main": "api/src/server.js",
   "license": "MIT",
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js",
+    "start": "api/src/server.js",
+    "dev": "api/src/server.js",
     "test": "jest"
   },
   "dependencies": {
