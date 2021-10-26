@@ -13,10 +13,16 @@ const serialize = (repo) => {
   }
 }
 
+const parseToObject = (acc, repo, index) => ({...acc, [index]: repo, });
+
+
 const getOldestRepos = async() => {
   const { data } = await axios.get('https://api.github.com/orgs/takenet/repos');
+  const repositories = data.slice(0, 5)
+    .map(serialize)
+    .reduce(parseToObject, {});
 
-  return data.slice(0, 5).map(serialize);
+  return repositories;
 };
 
 module.exports = getOldestRepos;

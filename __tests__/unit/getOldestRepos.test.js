@@ -13,16 +13,19 @@ describe('Get the oldest repositories', () => {
 
   afterEach(() => jest.clearAllMocks());
 
-  it('should return an array and length of five', async () => {
+  it.only('should return an object and length of five', async () => {
     const response = await getOldestRepos();
-    expect(Array.isArray(response)).toBe(true);
-    expect(response).toHaveLength(5);
+    const data = Object.values(response);
+
+    expect(typeof response).toBe('object');
+    expect(data).toHaveLength(5);
   });
 
   it('each repository should only have name, createdAt, owner, url, id, description properties', async() => {
       const response = await getOldestRepos();
+      const data = Object.values(response);
 
-      const reposTest = response.map((repository) => {
+      const reposTest = data.map((repository) => {
         expect(repository).toHaveProperty('id');
         expect(repository.id).not.toBe(null);
 

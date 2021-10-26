@@ -1,63 +1,137 @@
-module.exports = [
-  {
+module.exports = {
+  "0": {
     "id": 13860708,
     "name": "library.data",
     "owner": {
       "login": "takenet",
       "id": 4369522,
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjQzNjk1MjI=",
       "avatar_url": "https://avatars.githubusercontent.com/u/4369522?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takenet",
+      "html_url": "https://github.com/takenet",
+      "followers_url": "https://api.github.com/users/takenet/followers",
+      "following_url": "https://api.github.com/users/takenet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takenet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takenet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takenet/subscriptions",
+      "organizations_url": "https://api.github.com/users/takenet/orgs",
+      "repos_url": "https://api.github.com/users/takenet/repos",
+      "events_url": "https://api.github.com/users/takenet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takenet/received_events",
+      "type": "Organization",
+      "site_admin": false
     },
-    "description": "Provides a simple abstraction for implementing the repository and unit of work patterns for data-enabled applications",
-    "url": "https://api.github.com/repos/takenet/library.data",
     "createdAt": "2013-10-25T13:04:51Z",
+    "description": "Provides a simple abstraction for implementing the repository and unit of work patterns for data-enabled applications",
+    "url": "https://api.github.com/repos/takenet/library.data"
   },
-  {
+  "1": {
     "id": 13864228,
     "name": "library.logging",
     "owner": {
       "login": "takenet",
       "id": 4369522,
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjQzNjk1MjI=",
       "avatar_url": "https://avatars.githubusercontent.com/u/4369522?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takenet",
+      "html_url": "https://github.com/takenet",
+      "followers_url": "https://api.github.com/users/takenet/followers",
+      "following_url": "https://api.github.com/users/takenet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takenet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takenet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takenet/subscriptions",
+      "organizations_url": "https://api.github.com/users/takenet/orgs",
+      "repos_url": "https://api.github.com/users/takenet/repos",
+      "events_url": "https://api.github.com/users/takenet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takenet/received_events",
+      "type": "Organization",
+      "site_admin": false
     },
-    "description": "Provides a simple logging interface for applications and some basic implementations of this interface",
-    "url": "https://api.github.com/repos/takenet/library.logging",
     "createdAt": "2013-10-25T15:18:07Z",
+    "description": "Provides a simple logging interface for applications and some basic implementations of this interface",
+    "url": "https://api.github.com/repos/takenet/library.logging"
   },
-  {
+  "2": {
     "id": 13923445,
     "name": "CorrectNumber",
     "owner": {
       "login": "takenet",
       "id": 4369522,
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjQzNjk1MjI=",
       "avatar_url": "https://avatars.githubusercontent.com/u/4369522?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takenet",
+      "html_url": "https://github.com/takenet",
+      "followers_url": "https://api.github.com/users/takenet/followers",
+      "following_url": "https://api.github.com/users/takenet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takenet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takenet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takenet/subscriptions",
+      "organizations_url": "https://api.github.com/users/takenet/orgs",
+      "repos_url": "https://api.github.com/users/takenet/repos",
+      "events_url": "https://api.github.com/users/takenet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takenet/received_events",
+      "type": "Organization",
+      "site_admin": false
     },
-    "description": "This project have the single propose of creating a simple rest service to format telephone numbers",
-    "url": "https://api.github.com/repos/takenet/CorrectNumber",
     "createdAt": "2013-10-28T11:02:11Z",
+    "description": "This project have the single propose of creating a simple rest service to format telephone numbers",
+    "url": "https://api.github.com/repos/takenet/CorrectNumber"
   },
-  {
+  "3": {
     "id": 14797019,
     "name": "libphonenumber-csharp",
     "owner": {
       "login": "takenet",
       "id": 4369522,
-
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjQzNjk1MjI=",
       "avatar_url": "https://avatars.githubusercontent.com/u/4369522?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takenet",
+      "html_url": "https://github.com/takenet",
+      "followers_url": "https://api.github.com/users/takenet/followers",
+      "following_url": "https://api.github.com/users/takenet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takenet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takenet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takenet/subscriptions",
+      "organizations_url": "https://api.github.com/users/takenet/orgs",
+      "repos_url": "https://api.github.com/users/takenet/repos",
+      "events_url": "https://api.github.com/users/takenet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takenet/received_events",
+      "type": "Organization",
+      "site_admin": false
     },
-    "description": "Forking original c# port",
-    "url": "https://api.github.com/repos/takenet/libphonenumber-csharp",
     "createdAt": "2013-11-29T09:16:51Z",
+    "description": "Forking original c# port",
+    "url": "https://api.github.com/repos/takenet/libphonenumber-csharp"
   },
-  {
+  "4": {
     "id": 15866473,
     "name": "Takenet.Radar",
     "owner": {
       "login": "takenet",
       "id": 4369522,
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjQzNjk1MjI=",
       "avatar_url": "https://avatars.githubusercontent.com/u/4369522?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/takenet",
+      "html_url": "https://github.com/takenet",
+      "followers_url": "https://api.github.com/users/takenet/followers",
+      "following_url": "https://api.github.com/users/takenet/following{/other_user}",
+      "gists_url": "https://api.github.com/users/takenet/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/takenet/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/takenet/subscriptions",
+      "organizations_url": "https://api.github.com/users/takenet/orgs",
+      "repos_url": "https://api.github.com/users/takenet/repos",
+      "events_url": "https://api.github.com/users/takenet/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/takenet/received_events",
+      "type": "Organization",
+      "site_admin": false
     },
-    "description": "Radar de tecnologias takenet",
-    "url": "https://api.github.com/repos/takenet/Takenet.Radar",
     "createdAt": "2014-01-13T11:38:38Z",
+    "description": "Radar de tecnologias takenet",
+    "url": "https://api.github.com/repos/takenet/Takenet.Radar"
   }
-];
+}
