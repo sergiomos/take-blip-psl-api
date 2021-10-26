@@ -26,23 +26,14 @@ describe('Get the oldest repositories', () => {
       const data = Object.values(response);
 
       const reposTest = data.map((repository) => {
-        expect(repository).toHaveProperty('id');
-        expect(repository.id).not.toBe(null);
-
         expect(repository).toHaveProperty('name');
         expect(repository.name).not.toBe(null);
 
-        expect(repository).toHaveProperty('owner');
-        expect(repository.owner).not.toBe(null);
-
-        expect(repository).toHaveProperty('url');
-        expect(repository.url).not.toBe(null);
+        expect(repository).toHaveProperty('coverImageUrl');
+        expect(repository.coverImageUrl).not.toBe(null);
 
         expect(repository).toHaveProperty('description');
         expect(repository.description).not.toBe(null);
-
-        expect(repository).toHaveProperty('createdAt');
-        expect(repository.createdAt).not.toBe(null);
 
         expect(repository).toHaveProperty('language');
         expect(repository.language).toBe('C#');
