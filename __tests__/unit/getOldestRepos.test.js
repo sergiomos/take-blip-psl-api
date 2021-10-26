@@ -21,7 +21,7 @@ describe('Get the oldest repositories', () => {
     expect(data).toHaveLength(5);
   });
 
-  it('each repository should only have name, createdAt, owner, url, id, description properties', async() => {
+  it('each repository should only have name, createdAt, owner, url, id, description, language properties', async() => {
       const response = await getOldestRepos();
       const data = Object.values(response);
 
@@ -44,7 +44,9 @@ describe('Get the oldest repositories', () => {
         expect(repository).toHaveProperty('createdAt');
         expect(repository.createdAt).not.toBe(null);
 
-      })
+        expect(repository).toHaveProperty('language');
+        expect(repository.language).toBe('C#');
+      });
   
       await Promise.all(reposTest);
   });
