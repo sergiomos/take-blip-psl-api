@@ -10,4 +10,6 @@ app.use(cors());
 
 app.use(routes);
 
+app.get('/', (_req, res) => res.send())
+
 module.exports = app;

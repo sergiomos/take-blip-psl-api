@@ -4,8 +4,8 @@
   "main": "api/src/server.js",
   "license": "MIT",
   "scripts": {
-    "start": "api/src/server.js",
-    "dev": "api/src/server.js",
+    "start": "node api/src/server.js",
+    "dev": "nodemon api/src/server.js",
     "test": "jest"
   },
   "dependencies": {
