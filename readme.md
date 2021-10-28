@@ -55,7 +55,7 @@
 
 - Retorna os cinco mais antigos repositórios que utilizam C#
 
-- Cada repositório está em uma chava númerica que se inicia em 0
+- Cada repositório está em uma chave numerica que se inicia em 0
   ```js
   {
     0: {...},
