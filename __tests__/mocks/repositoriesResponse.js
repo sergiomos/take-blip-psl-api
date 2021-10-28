@@ -1,32 +1,32 @@
 module.exports = {
   "0": {
-    "name": "library.data",
-    "coverImageUrl": "https://avatars.githubusercontent.com/u/4369522?v=4&s=200",
+    "name": "takenet/library.data",
     "description": "Provides a simple abstraction for implementing the repository and unit of work patterns for data-enabled applications",
-    "language": "C#"
+    "language": "C#",
+    "coverImageUrl": "https://avatars.githubusercontent.com/u/4369522?v=4&s=200"
   },
   "1": {
-    "name": "library.logging",
-    "coverImageUrl": "https://avatars.githubusercontent.com/u/4369522?v=4&s=200",
+    "name": "takenet/library.logging",
     "description": "Provides a simple logging interface for applications and some basic implementations of this interface",
-    "language": "C#"
+    "language": "C#",
+    "coverImageUrl": "https://avatars.githubusercontent.com/u/4369522?v=4&s=200"
   },
   "2": {
-    "name": "libphonenumber-csharp",
-    "coverImageUrl": "https://avatars.githubusercontent.com/u/4369522?v=4&s=200",
+    "name": "takenet/libphonenumber-csharp",
     "description": "Forking original c# port",
-    "language": "C#"
+    "language": "C#",
+    "coverImageUrl": "https://avatars.githubusercontent.com/u/4369522?v=4&s=200"
   },
   "3": {
-    "name": "Takenet.Radar",
-    "coverImageUrl": "https://avatars.githubusercontent.com/u/4369522?v=4&s=200",
+    "name": "takenet/Takenet.Radar",
     "description": "Radar de tecnologias takenet",
-    "language": "C#"
+    "language": "C#",
+    "coverImageUrl": "https://avatars.githubusercontent.com/u/4369522?v=4&s=200"
   },
   "4": {
-    "name": "Takenet.ScoreSystem",
-    "coverImageUrl": "https://avatars.githubusercontent.com/u/4369522?v=4&s=200",
+    "name": "takenet/Takenet.ScoreSystem",
     "description": "Takenet score system",
-    "language": "C#"
+    "language": "C#",
+    "coverImageUrl": "https://avatars.githubusercontent.com/u/4369522?v=4&s=200"
   }
 }

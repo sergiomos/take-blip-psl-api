@@ -1,7 +1,7 @@
 const axios = require('axios');
 
-const serialize = ({ name, owner, description, language }) => ({ 
-  name, 
+const serialize = ({ full_name, owner, description, language }) => ({ 
+  name: full_name, 
   coverImageUrl: owner.avatar_url, 
   description,
   language,
