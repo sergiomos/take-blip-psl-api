@@ -13,7 +13,7 @@ describe('Get the oldest repositories', () => {
 
   afterEach(() => jest.clearAllMocks());
 
-  it.only('should return an object and length of five', async () => {
+  it('should return an object and length of five', async () => {
     const response = await getOldestRepos();
     const data = Object.values(response);
 
