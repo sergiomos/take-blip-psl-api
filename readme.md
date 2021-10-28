@@ -33,10 +33,8 @@
 <p align="center">
  <a href="#sobre">Sobre</a> •
  <a href="#funcionalidades">Funcionalidades</a> •
- <a href="#desenvolvimento">Desenvolvimento</a> • 
- <a href="#deploy">Deploy</a> • 
+ <a href="#desenvolvimento">Desenvolvimento</a> •  
  <a href="#tecnologias">Tecnologias</a> • 
- <a href="#license">License</a>
 </p>
 
 ## 📌Sobre
